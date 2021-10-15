@@ -9,10 +9,10 @@
   > 从而在面对很简单的问题时束手无策，浪费宝贵的时间。
   > 希望你能花费几分钟系统地学习一下Javadoc，节省未来抓耳挠腮的几个小时时间。
 
-  [这个程序](https://github.com/ByteLegendQuest/java-fix-broken-javadoc/blob/main/src/main/java/com/bytelegend/Challenge.java)里的Javadoc有一些问题，会导致Checkstyle失败。请修复之。
+  [这个程序](https://github.com/ByteLegendQuest/java-fix-broken-javadoc/blob/main/src/main/java/com/bytelegend/Challenge.java)里的Javadoc有一些问题，会导致编译和Checkstyle失败。请修复之。
 
   ## 挑战
-  - [这个程序](https://github.com/ByteLegendQuest/java-fix-broken-javadoc/blob/main/src/main/java/com/bytelegend/Challenge.java)里的Javadoc有一些问题，会导致Checkstyle失败。
+  - [这个程序](https://github.com/ByteLegendQuest/java-fix-broken-javadoc/blob/main/src/main/java/com/bytelegend/Challenge.java)里的Javadoc有一些问题，会导致编译和Checkstyle失败。
   - 请修复这个问题，然后创建一个Pull Request。
   - 机器人将会检查你的PR，告诉你你是否通过了挑战。
   - 回到[字节传说](https://bytelegend.com)，然后继续你的英雄旅程。
