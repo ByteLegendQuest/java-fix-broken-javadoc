@@ -8,12 +8,12 @@ package com.bytelegend;
  * Note that you should only fix the errors, don't modify the comments themselves. */
 
  /**
- * Location: C:\users\Documents
+ * Location: C:\\users\\Documents
  * Fix the maximum number in three numbers, e.g. max(1,2,3) -> 3
  */
 public class Challenge {
     /**
-     * Find the maximum integer in three numbers.
+     * Find the maximum integer in three numbers, e.g. max(1,2,3) -> 3
      *
      * @param a the first number
      * @param b the second number
