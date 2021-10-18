@@ -22,6 +22,9 @@ public class ChallengeTest {
         Assertions.assertTrue(
                 document.text()
                         .contains("Fix the maximum number in three numbers, e.g. max(1,2,3) -> 3"));
-        Assertions.assertFalse(document.select("span.returnLabel").isEmpty());
+        Assertions.assertTrue(
+                !document.select("span.returnLabel").isEmpty()
+                        || document.select("dt").stream()
+                                .anyMatch(element -> element.text().contains("Returns")));
     }
 }
