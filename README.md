@@ -21,7 +21,10 @@
 
 - `src/main/java/com/bytelegend/Challenge.java`
 
-    </details>
+</details>
+
+<details open='true'>
+  <summary>English</summary>
 
 # Fix Broken Javadoc
 
@@ -42,3 +45,5 @@ The Javadoc in [this program](https://github.com/ByteLegendQuest/java-fix-broken
 Any changes to files other than the following files will be rejected:**
 
 - `src/main/java/com/bytelegend/Challenge.java`
+
+</details>
