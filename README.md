@@ -13,8 +13,10 @@
 
   ## 挑战
   - [这个程序](https://github.com/ByteLegendQuest/java-fix-broken-javadoc/blob/main/src/main/java/com/bytelegend/Challenge.java)里的Javadoc有一些问题，会导致编译和Checkstyle失败。
-  - 请修复这个问题，然后创建一个Pull Request。
-  - 机器人将会检查你的PR，告诉你你是否通过了挑战。
+  - 你可以使用任意一种方法完成挑战（最好先在自己的本地电脑上测试通过）：
+    - 使用下面的网页编辑器。
+    - 创建一个GitHub Pull Request。
+  - 机器人将会检查你的答案，告诉你你是否通过了挑战。
   - 回到[字节传说](https://bytelegend.com)，然后继续你的英雄旅程。
 
   **注意：我们只允许您修改以下文件，任何对其他文件的修改都会被拒绝：**
