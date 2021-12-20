@@ -17,7 +17,7 @@ public class Challenge {
      * @param a the first number
      * @param b the second number
      * @param c the third number
-     * @return result of max operation on all inputs
+     * @return result of the max operation
      */
     public static int max(int a, int b, int c) {
         return Math.max(Math.max(a, b), c);
