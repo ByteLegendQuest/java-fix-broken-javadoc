@@ -57,7 +57,7 @@ Any changes to files other than the following files will be rejected:**
 
 祝你好运！
 
-如果你需要任何帮助，欢迎加入官方玩家QQ群（在[首页](https://bytelegend.com)右下角的`联系 & 关于`菜单里可以找到入群方式）或者[Discord社区](https://discord.gg/35RreUUGWt)，或email至[contact@bytelegend.com](mailto:contact@bytelegend.com)。
+如果你需要任何帮助，欢迎加入官方玩家QQ群（在[首页](https://bytelegend.com)右下角的`联系 & 关于`菜单里可以找到入群方式）或者[Discord社区](https://discord.gg/PvmqK3hF)，或email至[contact@bytelegend.com](mailto:contact@bytelegend.com)。
 
 **注意：我们只允许您修改以下文件，任何对其他文件的修改都会被拒绝：**
 
