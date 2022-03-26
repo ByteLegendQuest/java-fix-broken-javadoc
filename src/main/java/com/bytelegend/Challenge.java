@@ -1,5 +1,5 @@
 package com.bytelegend;
-/**
+/*
  * 本类中的注释和Javadoc存在一些问题，会使得`mvn verify`失败。请修复之，确保`mvn verify`通过。
  * 注意：请只修复错误，不要修改注释内容。
  *
@@ -9,7 +9,6 @@ package com.bytelegend;
  *
  * Location: C:\users\Documents
  * Fix the maximum number in three numbers, e.g. max(1,2,3) -> 3
- * @author 1501119276
  */
 public class Challenge {
     /*
@@ -18,7 +17,6 @@ public class Challenge {
      * @param a the first number
      * @param b the second number
      * @param c the third number
-     * @return int
      */
     public static int max(int a, int b, int c) {
         return Math.max(Math.max(a, b), c);
