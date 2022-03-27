@@ -24,6 +24,8 @@
 
 ![idea-add-jdk](https://raw.githubusercontent.com/ByteLegendQuest/java-clone-switch-branch/main/docs/idea-add-jdk.png)
 
+## 开启项目级的Maven仓库镜像
+
 如果你没有魔法，项目的导入可能会很慢，这是因为默认的Maven中央仓库在中国大陆没有CDN节点。
 在你了解Maven原理之前，**请勿**贸然按照网上教程胡乱修改本地的Maven配置。
 我们在项目中内置了阿里云镜像，一键开启，只对该项目生效，没有毒副作用。
