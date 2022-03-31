@@ -1,5 +1,4 @@
 package com.bytelegend;
-
 /**
  * There are some issues in the comments and Javadocs in this class, which fails `mvn verify`.
  * Please fix it and make sure `mvn verify` pass.
