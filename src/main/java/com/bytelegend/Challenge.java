@@ -8,7 +8,7 @@ package com.bytelegend;
  * Please fix it and make sure `mvn verify` pass.
  * Note that you should only fix the errors, don't modify the comments themselves.
  *
- * Location: {@literal C:\users\Documents}
+ * Location: C:&#92;users&#92;Documents
  * Fix the maximum number in three numbers, e.g.{@literal max(1,2,3) -> 3}
  */
 public class Challenge {
