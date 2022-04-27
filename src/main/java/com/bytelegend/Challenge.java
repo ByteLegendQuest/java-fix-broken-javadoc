@@ -9,7 +9,7 @@ package com.bytelegend;
  /**
  * Fix the maximum number in three numbers, e.g. max(1,2,3) -> 3
  * 
- * @link: C:\users\Documents
+ * @link C:\users\Documents
  */
 public class Challenge {
     /**
