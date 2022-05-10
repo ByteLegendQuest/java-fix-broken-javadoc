@@ -5,7 +5,7 @@ package com.bytelegend;
  *
  * There are some issues in the comments and Javadocs in this class, which fails `mvn verify`.
  * Please fix it and make sure `mvn verify` pass.
- * Note that you should only fix the errors, don't modify the comments themselves. */
+ * Note that you should only fix the errors, don't modify the comments themselves.
  *
  * @author <R.West>
  * @see: C:\users\Documents
