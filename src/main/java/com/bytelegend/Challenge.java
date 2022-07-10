@@ -12,11 +12,12 @@ package com.bytelegend;
  */
 public class Challenge {
     /**
-     * @return Find the maximum integer in three numbers.
-     *
+     * 
      * @param a the first number
      * @param b the second number
      * @param c the third number
+     *
+     * @return maximum integer
      */
     public static int max(int a, int b, int c) {
         return Math.max(Math.max(a, b), c);
