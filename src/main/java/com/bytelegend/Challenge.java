@@ -18,7 +18,7 @@ public class Challenge {
      * @param b ("the second number")
      * @param c ("the third number")
      */
-    public static int max(int a, int b, int c) {
+    @return public static int max(int @param a, int @paramb, int @paramc) {
         return Math.max(Math.max(a, b), c);
     }
 
