@@ -14,7 +14,7 @@ public class Challenge {
     /**
      * Find the maximum integer in three numbers.
      *
-     * @param a the first number
+     * <p>@param a the first number
      * @param b the second number
      * @param c the third number
      */
