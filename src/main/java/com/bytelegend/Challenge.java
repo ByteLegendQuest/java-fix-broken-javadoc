@@ -7,8 +7,8 @@ package com.bytelegend;
  * There are some issues in the comments and Javadocs in this class, which fails `mvn verify`.
  * Please fix it and make sure `mvn verify` pass.
  * Note that you should only fix the errors, don't modify the comments themselves. 
- */
- /**
+ *
+ *
  * Location: C:\Users\Documents
  * Fix the maximum number in three numbers, e.g. max(1,2,3) -> 3
  */
