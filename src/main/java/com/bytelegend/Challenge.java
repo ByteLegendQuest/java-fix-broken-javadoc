@@ -1,16 +1,16 @@
 package com.bytelegend;
 /**
- * @description 本类中的注释和Javadoc存在一些问题，会使得`mvn verify`失败。请修复之，确保`mvn verify`通过。
- * @description 注意：请只修复错误，不要修改注释内容。
- * @description There are some issues in the comments and Javadocs in this class, which fails `mvn verify`.
- * @description Please fix it and make sure `mvn verify` pass.
- * @description Note that you should only fix the errors, don't modify the comments themselves. 
+ * @Description  本类中的注释和Javadoc存在一些问题，会使得`mvn verify`失败。请修复之，确保`mvn verify`通过。
+ * @Description  注意：请只修复错误，不要修改注释内容。
+ * @Description  There are some issues in the comments and Javadocs in this class, which fails `mvn verify`.
+ * @Description  Please fix it and make sure `mvn verify` pass.
+ * @Description  that you should only fix the errors, don't modify the comments themselves. 
+ * @Description  Location: C:\users\Documents
+ * @Description  Fix the maximum number in three numbers, e.g. max(1,2,3) -> 3
  */
- * Location: C:\users\Documents
- * Fix the maximum number in three numbers, e.g. max(1,2,3) -> 3
 public class Challenge {
     /**
-     * @description Find the maximum integer in three numbers.
+     * @Description Find the maximum integer in three numbers
      * @param a the first number
      * @param b the second number
      * @param c the third number
