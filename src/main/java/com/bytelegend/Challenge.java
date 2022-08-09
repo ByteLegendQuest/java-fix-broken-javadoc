@@ -8,7 +8,7 @@ package com.bytelegend;
  * Note that you should only fix the errors, don't modify the comments themselves.
  *
  * @author: Jonas3012
- * location C:\ users\ Documents 
+ * @location C:\ users\ Documents 
  * Fix the maximum number in three numbers, e.g. max(1,2,3) -> 3
  */
 public class Challenge {
