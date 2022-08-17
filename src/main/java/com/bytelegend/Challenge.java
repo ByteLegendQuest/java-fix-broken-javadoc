@@ -7,7 +7,7 @@ package com.bytelegend;
  * Please fix it and make sure `mvn verify` pass.
  * Note that you should only fix the errors, don't modify the comments themselves.
  * <p>
- * Location: <code>C:{@literal \}users{@literal \}Documents </code>
+ * Location: C:{@literal \}users{@literal \}Documents
  * <p>
  * Fix the maximum number in three numbers, e.g. max(1,2,3) == 3
  */
