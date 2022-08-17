@@ -9,7 +9,7 @@ package com.bytelegend;
  * <p>
  * Location: <code>C:{@literal \}users{@literal \}Documents </code>
  * <p>
- * Fix the maximum number in three numbers, e.g. max(1,2,3) -> 3
+ * Fix the maximum number in three numbers, e.g. max(1,2,3) == 3
  */
 public class Challenge {
     /**
