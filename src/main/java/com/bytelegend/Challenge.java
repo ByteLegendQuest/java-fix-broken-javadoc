@@ -12,7 +12,7 @@ package com.bytelegend;
  */
 public class Challenge {
     /**
-     * Find the maximum integer in three numbers.
+     * @return Find the maximum integer in three numbers.
      *
      * @param a the first number
      * @param b the second number
