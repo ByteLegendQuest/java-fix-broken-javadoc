@@ -12,7 +12,6 @@ package com.bytelegend;
  */
 public class Challenge {
     /**
-	@@ -14,7 +14,7 @@ public class Challenge {
      * @param a the first number
      * @param b the second number
      * @param c the third number
