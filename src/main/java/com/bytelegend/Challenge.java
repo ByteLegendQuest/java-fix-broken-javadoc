@@ -11,14 +11,14 @@ package com.bytelegend;
  * Fix the maximum number in three numbers, e.g. max(1,2,3) -> 3
  */
 public class Challenge {
-    /**
-     * Find the maximum integer in three numbers.
-     *
-     * @param a - the first number
-     * @param b - the second number
-     * @param c - the third number
-     */
     public static int max(int a, int b, int c) {
+        /**
+        * Find the maximum integer in three numbers.
+        *
+        * @param a - the first number
+        * @param b - the second number
+        * @param c - the third number
+        */
         return Math.max(Math.max(a, b), c);
     }
 }
