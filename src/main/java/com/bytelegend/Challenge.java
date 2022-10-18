@@ -9,8 +9,6 @@ package com.bytelegend;
  *
  * Location: C:&#92;users\Documents
  * Fix the maximum number in three numbers, e.g. max(1,2,3) -&gt; 3
- * Location: C:\users\Documents
- * Fix the maximum number in three numbers, e.g. max(1,2,3) -> 3
  */
 public class Challenge {
     /**
