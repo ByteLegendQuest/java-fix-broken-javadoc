@@ -10,7 +10,7 @@ package com.bytelegend;
  * Location: C:\users\Documents
  * Fix the maximum number in three numbers, e.g. max(1,2,3) -> 3
  */
- /**
+ /*
      * Find the maximum integer in three numbers.
      *
      * @param a the first number
