@@ -14,9 +14,9 @@ public class Challenge {
     /**
      * Find the maximum integer in three numbers.
      * 
-     * @param int a the first number
-     * @param int b the second number
-     * @param int c the third number
+     * @param a the first number
+     * @param b the second number
+     * @param c the third number
      */
     public static int max(int a, int b, int c) {
         return Math.max(Math.max(a, b), c);
