@@ -8,8 +8,8 @@ package com.bytelegend;
  * Note that you should only fix the errors, don't modify the comments themselves. */
 
 /**
- * {@code @see:} C:/users/Documents
- * Fix the maximum number in three numbers, e.g. max(1,2,3) = 3
+ * @see: C:/users/Documents
+ * Fix the maximum number in three numbers, e.g. max(1,2,3) -> 3
  */
 public class Challenge {
     /**
@@ -18,7 +18,7 @@ public class Challenge {
      * @param a the first number
      * @param b the second number
      * @param c the third number
-     * @return : max
+     * @return : Math.max(Math.max(a, b), c)
      */
     public static int max(int a, int b, int c) {
         return Math.max(Math.max(a, b), c);
