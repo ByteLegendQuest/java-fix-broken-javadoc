@@ -1,5 +1,4 @@
 package com.bytelegend;
-import java.io.*;
 
  /**
  * 本类中的注释和Javadoc存在一些问题，会使得`mvn verify`失败。请修复之，确保`mvn verify`通过。
