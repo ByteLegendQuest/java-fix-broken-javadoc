@@ -11,7 +11,8 @@ package com.bytelegend;
  * Fix the maximum number in three numbers, e.g. max(1,2,3) -> 3
  */
 public class Challenge {
-    /**
+    public static int max(int a, int b, int c) {
+        /**
      * Find the maximum integer in three numbers.
      *
      * { @param a } the first number
@@ -19,7 +20,6 @@ public class Challenge {
      * { @param c } the third number
      * { @return } the maxmium number
      */
-    public static int max(int a, int b, int c) {
         return Math.max(Math.max(a, b), c);
     }
 }
