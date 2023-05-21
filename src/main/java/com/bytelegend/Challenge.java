@@ -7,6 +7,7 @@ package com.bytelegend;
  * Please fix it and make sure `mvn verify` pass.
  * Note that you should only fix the errors, don't modify the comments themselves.
  * Location: C:\u005cusers\u005cDocuments
+
  * Fix the maximum number in three numbers, e.g. max(1,2,3) -> 3
  */
 public class Challenge {
@@ -16,6 +17,7 @@ public class Challenge {
      * @param a the first number
      * @param b the second number
      * @param c the third number
+     
      * @return max
      */
     public static int max(int a, int b, int c) {
