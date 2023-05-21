@@ -16,7 +16,6 @@ public class Challenge {
      * @param a the first number
      * @param b the second number
      * @param c the third number
-     *
      * @return max
      */
     public static int max(int a, int b, int c) {
