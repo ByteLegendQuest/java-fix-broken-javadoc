@@ -7,6 +7,7 @@ on:
 jobs:
   check:
     runs-on: 'ubuntu-latest'
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v2
         with:
@@ -28,13 +29,20 @@ jobs:
             } else {
                 core.setOutput('player-github-username', context.payload.pull_request.user.login)
             }
+      - name: Base64 encode PR title
+        id: encode-pr-title
+        uses: actions/github-script@v5
+        with:
+          script: |
+            const title = context.payload.pull_request.title;
+            const encodedTitle = Buffer.from(title).toString('base64');
+            core.setOutput('encoded-title', encodedTitle);
       - uses: actions/setup-java@v2
         with:
           distribution: 'temurin'
           java-version: '11'
           cache: 'maven'
       - name: Check Problems in Code
-        # TODO: https://github.community/t/sanitizing-quotes-in-pr-titles/169175/6
         run: >
           curl --location --fail --silent --show-error -o code-checker.jar https://github.com/ByteLegend/tools/releases/download/v1.0.0/code-checker.jar &&
           java
@@ -43,7 +51,7 @@ jobs:
           -DprLocalBranch=pr/${{ github.event.pull_request.head.ref }}
           -DprAuthor=${{ steps.determine-player-username.outputs.player-github-username }}
           -DprNumber=${{ github.event.pull_request.number }}
-          -DprTitle='${{ github.event.pull_request.title }}'
+          -DprTitleEncoded=${{ steps.encode-pr-title.outputs.encoded-title }}
           -DprHeadSha=${{ github.event.pull_request.head.sha }}
           -DapiUrl=https://bytelegend.com
           -DcodeCheckerSecret=${{ secrets.CODE_CHECKER_SECRET }}
