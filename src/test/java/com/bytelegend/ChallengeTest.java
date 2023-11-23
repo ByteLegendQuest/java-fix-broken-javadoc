@@ -21,7 +21,7 @@ public class ChallengeTest {
         Assertions.assertTrue(document.text().contains("Location: C:\\users\\Documents"));
         Assertions.assertTrue(
                 document.text()
-                        .contains("Fix the maximum number in three numbers, e.g. max(1,2,3) -> 3"));
+                        .contains("Fix the maximum number in three numbers, e.g. max(1,2,3) -&gt 3"));
         Assertions.assertTrue(
                 !document.select("span.returnLabel").isEmpty()
                         || document.select("dt").stream()
